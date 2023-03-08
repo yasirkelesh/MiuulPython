@@ -13,11 +13,10 @@ salaries = [100,200,300,400]
 
 
 ulkeler = ["türkiye","rusya","afganistan","abd","çin","bangladeş"]
+guclu_ulkeler = ["türkiye","afganistan","bangladeş"]
 
-guculu_ulkeler = ["türkiye","afganistan","bangladeş"]
 
-
-[ulke.upper() if ulke in guculu_ulkeler else ulke.lower() for ulke in ulkeler ]
+[ulke.upper() if ulke in guclu_ulkeler else ulke.lower() for ulke in ulkeler ]
 
 
 
